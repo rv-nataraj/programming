@@ -1,4 +1,9 @@
 file=open("numbers.txt")
+sum=0
 for line in file:
     print(line)
+    for i in line.split(','):
+        sum=sum+int(i)
 file.close()
+
+print(sum)
