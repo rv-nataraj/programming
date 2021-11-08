@@ -9,4 +9,4 @@ for line in file:
         sum=sum+int(i)
 
 print(sum)
-file.close()
+file.close() 
