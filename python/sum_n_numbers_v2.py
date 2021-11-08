@@ -1,4 +1,6 @@
-file=open("numbers.txt")
+import sys
+
+file=open(sys.argv[1])
 sum=0
 for line in file:
     print(line)
