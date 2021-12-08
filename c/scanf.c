@@ -10,7 +10,7 @@ int main()
     scanf("%f",&b);
 
     char c;
-    printf("Enter a character value: ");
+    printf("Enter a character value: "); 
     scanf(" %c",&c);
 
     printf("%p : %d\n %p : %f\n %p : %c\n",&a,a,&b,b,&c,c);
